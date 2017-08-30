@@ -1,0 +1,312 @@
+// Themefisher icons
+
+@mixin icons {
+	.tf-strategy:before {
+  		content: "\e03b";
+  		font-style: normal;
+  		font-family: $symbols;
+	}
+
+	.tf-ion-ios-briefcase-outline:before {
+  		content: "\f3ed";
+  		font-style: normal;
+  		font-family: $symbols;
+	}
+
+	.tf-ion-ios-camera-outline:before {
+  		content: "\f3f5";
+  		font-style: normal;
+  		font-family: $symbols;
+	}
+
+	.tf-mobile:before {
+  		content: "\e000";
+  		font-style: normal;
+  		font-family: $symbols;
+	}
+
+	.tf-ion-ios-cart-outline:before {
+  		content: "\f3f7";
+  		font-style: normal;
+  		font-family: $symbols;
+	}
+
+	.tf-ion-quote:before {
+  		content: "\f347";
+  		font-style: normal;
+  		font-family: $symbols;
+	}
+}
+
+
+// Font imports
+
+@mixin josefin {
+	@font-face {
+		font-family: "Josefin-Sans";
+		src: url('../../fonts/josefin-sans/Josefin-Sans-Bold-Italic.eot');
+		src: url('../../fonts/josefin-sans/Josefin-Sans-Bold-Italic.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Bold-Italic.svg#svgJosefin-Sans-Bold-Italic') format('svg'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Bold-Italic.woff') format('woff'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Bold-Italic.woff2'), format(woff2),
+			url('../../fonts/josefin-sans/Josefin-Sans-Bold-Italic.ttf') format('truetype');
+
+		font-weight: 700;
+		font-style: italic;
+	}
+
+	@font-face {
+		font-family: "Josefin-Sans";
+		src: url('../../fonts/josefin-sans/Josefin-Sans-Regular-Italic.eot');
+		src: url('../../fonts/josefin-sans/Josefin-Sans-Regular-Italic.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Regular-Italic.svg#svgJosefin-Sans-Italic') format('svg'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Regular-Italic.woff') format('woff'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Regular-Italic.woff2'), format(woff2),
+			url('../../fonts/josefin-sans/Josefin-Sans-Italic.ttf') format('truetype');
+
+		font-weight: normal;
+		font-style: italic;
+	}
+
+	@font-face {
+		font-family: "Josefin-Sans";
+		src: url('../../fonts/josefin-sans/Josefin-Sans-Light.eot');
+		src: url('../../fonts/josefin-sans/Josefin-Sans-Light.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Light.svg#svgJosefin-Sans-Light') format('svg'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Light.woff') format('woff'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Light.woff2'), format(woff2),
+			url('../../fonts/josefin-sans/Josefin-Sans-Light.ttf') format('truetype');
+
+		font-weight: 300;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Josefin-Sans";
+		src: url('../../fonts/josefin-sans/Josefin-Sans-Light-Italic.eot');
+		src: url('../../fonts/josefin-sans/Josefin-Sans-Light-Italic.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Light-Italic.svg#svgJosefin-Sans-Light-Italic') format('svg'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Light-Italic.woff') format('woff'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Light-Italic.woff2'), format(woff2),
+			url('../../fonts/josefin-sans/Josefin-Sans-Light-Italic.ttf') format('truetype');
+
+		font-weight: 300;
+		font-style: italic;
+	}
+
+	@font-face {
+		font-family: "Josefin-Sans";
+		src: url('../../fonts/josefin-sans/Josefin-Sans.eot');
+		src: url('../../fonts/josefin-sans/Josefin-Sans.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/josefin-sans/Josefin-Sans.svg#svgJosefin-Sans') format('svg'),
+			url('../../fonts/josefin-sans/Josefin-Sans.woff') format('woff'),
+			url('../../fonts/josefin-sans/Josefin-Sans.woff2'), format(woff2),
+			url('../../fonts/josefin-sans/Josefin-Sans-Regular.ttf') format('truetype');
+
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Josefin-Sans";
+		src: url('../../fonts/josefin-sans/Josefin-Sans-SemiBold.eot');
+		src: url('../../fonts/josefin-sans/Josefin-Sans-SemiBold.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/josefin-sans/Josefin-Sans-SemiBold.svg#svgJosefin-Sans-SemiBold') format('svg'),
+			url('../../fonts/josefin-sans/Josefin-Sans-SemiBold.woff') format('woff'),
+			url('../../fonts/josefin-sans/Josefin-Sans-SemiBold.woff2'), format(woff2),
+			url('../../fonts/josefin-sans/Josefin-Sans-SemiBold.ttf') format('truetype');
+
+		font-weight: 600;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Josefin-Sans";
+		src: url('../../fonts/josefin-sans/Josefin-Sans-SemiBoldItalic.eot');
+		src: url('../../fonts/josefin-sans/Josefin-Sans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/josefin-sans/Josefin-Sans-SemiBoldItalic.svg#svgJosefin-Sans-SemiBoldItalic') format('svg'),
+			url('../../fonts/josefin-sans/Josefin-Sans-SemiBoldItalic.woff') format('woff'),
+			url('../../fonts/josefin-sans/Josefin-Sans-SemiBoldItalic.woff2'), format(woff2),
+			url('../../fonts/josefin-sans/Josefin-Sans-SemiBoldItalic.ttf') format('truetype');
+
+		font-weight: 600;
+		font-style: italic;
+	}
+
+	@font-face {
+		font-family: "Josefin-Sans";
+		src: url('../../fonts/josefin-sans/Josefin-Sans-Bold.eot');
+		src: url('../../fonts/josefin-sans/Josefin-Sans-Bold.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Bold.svg#svgJosefin-Sans-Bold') format('svg'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Bold.woff') format('woff'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Bold.woff2'), format(woff2),
+			url('../../fonts/josefin-sans/Josefin-Sans-Bold.ttf') format('truetype');
+
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Josefin-Sans";
+		src: url('../../fonts/josefin-sans/Josefin-Sans-Thin.eot');
+		src: url('../../fonts/josefin-sans/Josefin-Sans-Thin.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Thin.svg#svgJosefin-Sans-Thin') format('svg'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Thin.woff') format('woff'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Thin.woff2'), format(woff2),
+			url('../../fonts/josefin-sans/Josefin-Sans-Thin.ttf') format('truetype');
+
+		font-weight: 100;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Josefin-Sans";
+		src: url('../../fonts/josefin-sans/Josefin-Sans-Thin-Italic.eot');
+		src: url('../../fonts/josefin-sans/Josefin-Sans-Thin-Italic.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Thin-Italic.svg#svgJosefin-Sans-Thin-Italic') format('svg'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Thin-Italic.woff') format('woff'),
+			url('../../fonts/josefin-sans/Josefin-Sans-Thin-Italic.woff2'), format(woff2),
+			url('../../fonts/josefin-sans/Josefin-Sans-Thin-Italic.ttf') format('truetype');
+
+		font-weight: 100;
+		font-style: normal;
+	}
+
+
+
+
+}
+
+@mixin themefisher {
+	@font-face {
+		font-family: 'themefisher-font';
+		src: url('../../fonts/themefisher-font.eot?ug5hnh');
+		src: url('../../fonts/themefisher-font.eot?ug5hnh#iefix') format('embedded-opentype'),
+		  url('../../fonts/themefisher-font.ttf?ug5hnh') format('truetype'),
+		  url('../../fonts/themefisher-font.woff?ug5hnh') format('woff'),
+		  url('../../fonts/themefisher-font.svg?ug5hnh#themefisher-font') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+}
+
+
+@mixin lora {
+	@font-face {
+		font-family: 'lora';
+		src: url('../../fonts/lora/Lora.eot');
+		src: url('../../fonts/josefin-sans/Lora.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/josefin-sans/Lora.svg#svgLora') format('svg'),
+			url('../../fonts/josefin-sans/Lora.woff') format('woff'),
+			url('../../fonts/josefin-sans/Lora.woff2'), format(woff2),
+			url('../../fonts/josefin-sans/Lora-Regular.ttf') format('truetype');
+
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'lora';
+		src: url('../../fonts/lora/Lora-Bold-Italic.eot');
+		src: url('../../fonts/josefin-sans/Lora-Bold-Italic.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/josefin-sans/Lora-Bold-Italic.svg#svgLora-Bold-Italic') format('svg'),
+			url('../../fonts/josefin-sans/Lora-Bold-Italic.woff') format('woff'),
+			url('../../fonts/josefin-sans/Lora-Bold-Italic.woff2'), format(woff2),
+			url('../../fonts/josefin-sans/Lora-BoldItalic.ttf') format('truetype');
+
+		font-weight: 700;
+		font-style: italic;
+	}
+
+	@font-face {
+		font-family: 'lora';
+		src: url('../../fonts/lora/Lora-Bold.eot');
+		src: url('../../fonts/josefin-sans/Lora-Bold.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/josefin-sans/Lora-Bold.svg#svgLora-Bold') format('svg'),
+			url('../../fonts/josefin-sans/Lora-Bold.woff') format('woff'),
+			url('../../fonts/josefin-sans/Lora-Bold.woff2'), format(woff2),
+			url('../../fonts/josefin-sans/Lora-Bold.ttf') format('truetype');
+
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'lora';
+		src: url('../../fonts/lora/Lora-Italic.eot');
+		src: url('../../fonts/josefin-sans/Lora-Italic.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/josefin-sans/Lora-Italic.svg#svgLora-Italic') format('svg'),
+			url('../../fonts/josefin-sans/Lora-Italic.woff') format('woff'),
+			url('../../fonts/josefin-sans/Lora-Italic.woff2'), format(woff2),
+			url('../../fonts/josefin-sans/Lora-Italic.ttf') format('truetype');
+
+		font-weight: normal;
+		font-style: italic;
+	}
+}
+
+// column layouts 
+
+@mixin column2-img-left {
+	.col-1 {
+		width: 30%;
+	}
+
+	.col-2 {
+		width: 55%;
+		margin-left: 50px;
+	}
+}
+
+
+@mixin column2-img-right {
+	.col-1 {
+		width: 50%;
+		vertical-align: middle;
+	}
+
+	.col-2 {
+		width: 40%;
+		margin-left: 50px;
+	}
+}
+
+@mixin btn-style {
+	background-color: $theme-color;
+	border: none;
+	color: #fff;
+	font-family: $main-font;
+	font-weight: 300;
+	box-shadow: 0 10px 20px lighten($theme-color, 10%);
+	border-radius: 100px;
+}
+
+
+@mixin nav-style {
+	.navigation {
+		text-transform: uppercase;
+
+		li {
+
+		list-style: none;
+		display: inline-block;
+		font-family: $main-font;
+		font-weight: bold;
+		font-size: 13px;
+		padding: 0 10px;
+
+			a {
+				text-decoration: none;
+				color: #000;
+			}
+		}	
+
+	}
+}
+
+
+
+
+
+
+
