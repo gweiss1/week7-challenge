@@ -1,0 +1,955 @@
+/**
+ *
+ * All scss here
+ */
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* line 12, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 25, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+body {
+  margin: 0; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 33, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 47, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+/* line 60, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block; }
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 70, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 79, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 90, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 103, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 113, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 123, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 132, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 142, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 153, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+dfn {
+  font-style: italic; }
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 161, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 170, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 179, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 187, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 191, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 202, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+audio,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 211, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 220, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 228, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 240, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 256, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 266, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 277, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 288, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 300, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 311, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 322, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 336, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 345, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 354, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 364, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 374, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+/* line 383, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 393, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+/* line 406, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+details,
+menu {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 415, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+summary {
+  display: list-item; }
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 426, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+canvas {
+  display: inline-block; }
+
+/**
+ * Add the correct display in IE.
+ */
+/* line 434, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+template {
+  display: none; }
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+/* line 445, /Users/gweiss/Development/week7-challenge/assets/src/scss/normalize.scss */
+[hidden] {
+  display: none; }
+
+@font-face {
+  font-family: 'themefisher-font';
+  src: url("../../fonts/themefisher-font.eot?ug5hnh");
+  src: url("../../fonts/themefisher-font.eot?ug5hnh#iefix") format("embedded-opentype"), url("../../fonts/themefisher-font.ttf?ug5hnh") format("truetype"), url("../../fonts/themefisher-font.woff?ug5hnh") format("woff"), url("../../fonts/themefisher-font.svg?ug5hnh#themefisher-font") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Josefin-Sans";
+  src: url("../../fonts/josefin-sans/Josefin-Sans-Bold-Italic.eot");
+  src: url("../../fonts/josefin-sans/Josefin-Sans-Bold-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/josefin-sans/Josefin-Sans-Bold-Italic.svg#svgJosefin-Sans-Bold-Italic") format("svg"), url("../../fonts/josefin-sans/Josefin-Sans-Bold-Italic.woff") format("woff"), url("../../fonts/josefin-sans/Josefin-Sans-Bold-Italic.woff2"), format(woff2), url("../../fonts/josefin-sans/Josefin-Sans-Bold-Italic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Josefin-Sans";
+  src: url("../../fonts/josefin-sans/Josefin-Sans-Regular-Italic.eot");
+  src: url("../../fonts/josefin-sans/Josefin-Sans-Regular-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/josefin-sans/Josefin-Sans-Regular-Italic.svg#svgJosefin-Sans-Italic") format("svg"), url("../../fonts/josefin-sans/Josefin-Sans-Regular-Italic.woff") format("woff"), url("../../fonts/josefin-sans/Josefin-Sans-Regular-Italic.woff2"), format(woff2), url("../../fonts/josefin-sans/Josefin-Sans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Josefin-Sans";
+  src: url("../../fonts/josefin-sans/Josefin-Sans-Light.eot");
+  src: url("../../fonts/josefin-sans/Josefin-Sans-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/josefin-sans/Josefin-Sans-Light.svg#svgJosefin-Sans-Light") format("svg"), url("../../fonts/josefin-sans/Josefin-Sans-Light.woff") format("woff"), url("../../fonts/josefin-sans/Josefin-Sans-Light.woff2"), format(woff2), url("../../fonts/josefin-sans/Josefin-Sans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Josefin-Sans";
+  src: url("../../fonts/josefin-sans/Josefin-Sans-Light-Italic.eot");
+  src: url("../../fonts/josefin-sans/Josefin-Sans-Light-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/josefin-sans/Josefin-Sans-Light-Italic.svg#svgJosefin-Sans-Light-Italic") format("svg"), url("../../fonts/josefin-sans/Josefin-Sans-Light-Italic.woff") format("woff"), url("../../fonts/josefin-sans/Josefin-Sans-Light-Italic.woff2"), format(woff2), url("../../fonts/josefin-sans/Josefin-Sans-Light-Italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Josefin-Sans";
+  src: url("../../fonts/josefin-sans/Josefin-Sans.eot");
+  src: url("../../fonts/josefin-sans/Josefin-Sans.eot?#iefix") format("embedded-opentype"), url("../../fonts/josefin-sans/Josefin-Sans.svg#svgJosefin-Sans") format("svg"), url("../../fonts/josefin-sans/Josefin-Sans.woff") format("woff"), url("../../fonts/josefin-sans/Josefin-Sans.woff2"), format(woff2), url("../../fonts/josefin-sans/Josefin-Sans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Josefin-Sans";
+  src: url("../../fonts/josefin-sans/Josefin-Sans-SemiBold.eot");
+  src: url("../../fonts/josefin-sans/Josefin-Sans-SemiBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/josefin-sans/Josefin-Sans-SemiBold.svg#svgJosefin-Sans-SemiBold") format("svg"), url("../../fonts/josefin-sans/Josefin-Sans-SemiBold.woff") format("woff"), url("../../fonts/josefin-sans/Josefin-Sans-SemiBold.woff2"), format(woff2), url("../../fonts/josefin-sans/Josefin-Sans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Josefin-Sans";
+  src: url("../../fonts/josefin-sans/Josefin-Sans-SemiBoldItalic.eot");
+  src: url("../../fonts/josefin-sans/Josefin-Sans-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/josefin-sans/Josefin-Sans-SemiBoldItalic.svg#svgJosefin-Sans-SemiBoldItalic") format("svg"), url("../../fonts/josefin-sans/Josefin-Sans-SemiBoldItalic.woff") format("woff"), url("../../fonts/josefin-sans/Josefin-Sans-SemiBoldItalic.woff2"), format(woff2), url("../../fonts/josefin-sans/Josefin-Sans-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Josefin-Sans";
+  src: url("../../fonts/josefin-sans/Josefin-Sans-Bold.eot");
+  src: url("../../fonts/josefin-sans/Josefin-Sans-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/josefin-sans/Josefin-Sans-Bold.svg#svgJosefin-Sans-Bold") format("svg"), url("../../fonts/josefin-sans/Josefin-Sans-Bold.woff") format("woff"), url("../../fonts/josefin-sans/Josefin-Sans-Bold.woff2"), format(woff2), url("../../fonts/josefin-sans/Josefin-Sans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Josefin-Sans";
+  src: url("../../fonts/josefin-sans/Josefin-Sans-Thin.eot");
+  src: url("../../fonts/josefin-sans/Josefin-Sans-Thin.eot?#iefix") format("embedded-opentype"), url("../../fonts/josefin-sans/Josefin-Sans-Thin.svg#svgJosefin-Sans-Thin") format("svg"), url("../../fonts/josefin-sans/Josefin-Sans-Thin.woff") format("woff"), url("../../fonts/josefin-sans/Josefin-Sans-Thin.woff2"), format(woff2), url("../../fonts/josefin-sans/Josefin-Sans-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Josefin-Sans";
+  src: url("../../fonts/josefin-sans/Josefin-Sans-Thin-Italic.eot");
+  src: url("../../fonts/josefin-sans/Josefin-Sans-Thin-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/josefin-sans/Josefin-Sans-Thin-Italic.svg#svgJosefin-Sans-Thin-Italic") format("svg"), url("../../fonts/josefin-sans/Josefin-Sans-Thin-Italic.woff") format("woff"), url("../../fonts/josefin-sans/Josefin-Sans-Thin-Italic.woff2"), format(woff2), url("../../fonts/josefin-sans/Josefin-Sans-Thin-Italic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lora';
+  src: url("../../fonts/lora/Lora.eot");
+  src: url("../../fonts/josefin-sans/Lora.eot?#iefix") format("embedded-opentype"), url("../../fonts/josefin-sans/Lora.svg#svgLora") format("svg"), url("../../fonts/josefin-sans/Lora.woff") format("woff"), url("../../fonts/josefin-sans/Lora.woff2"), format(woff2), url("../../fonts/josefin-sans/Lora-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lora';
+  src: url("../../fonts/lora/Lora-Bold-Italic.eot");
+  src: url("../../fonts/josefin-sans/Lora-Bold-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/josefin-sans/Lora-Bold-Italic.svg#svgLora-Bold-Italic") format("svg"), url("../../fonts/josefin-sans/Lora-Bold-Italic.woff") format("woff"), url("../../fonts/josefin-sans/Lora-Bold-Italic.woff2"), format(woff2), url("../../fonts/josefin-sans/Lora-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'lora';
+  src: url("../../fonts/lora/Lora-Bold.eot");
+  src: url("../../fonts/josefin-sans/Lora-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/josefin-sans/Lora-Bold.svg#svgLora-Bold") format("svg"), url("../../fonts/josefin-sans/Lora-Bold.woff") format("woff"), url("../../fonts/josefin-sans/Lora-Bold.woff2"), format(woff2), url("../../fonts/josefin-sans/Lora-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lora';
+  src: url("../../fonts/lora/Lora-Italic.eot");
+  src: url("../../fonts/josefin-sans/Lora-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/josefin-sans/Lora-Italic.svg#svgLora-Italic") format("svg"), url("../../fonts/josefin-sans/Lora-Italic.woff") format("woff"), url("../../fonts/josefin-sans/Lora-Italic.woff2"), format(woff2), url("../../fonts/josefin-sans/Lora-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+/* line 17, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 21, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.section {
+  margin: 100px auto; }
+
+/* line 4, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+.tf-strategy:before {
+  content: "\e03b";
+  font-style: normal;
+  font-family: "themefisher-font"; }
+
+/* line 10, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+.tf-ion-ios-briefcase-outline:before {
+  content: "\f3ed";
+  font-style: normal;
+  font-family: "themefisher-font"; }
+
+/* line 16, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+.tf-ion-ios-camera-outline:before {
+  content: "\f3f5";
+  font-style: normal;
+  font-family: "themefisher-font"; }
+
+/* line 22, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+.tf-mobile:before {
+  content: "\e000";
+  font-style: normal;
+  font-family: "themefisher-font"; }
+
+/* line 28, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+.tf-ion-ios-cart-outline:before {
+  content: "\f3f7";
+  font-style: normal;
+  font-family: "themefisher-font"; }
+
+/* line 34, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+.tf-ion-quote:before {
+  content: "\f347";
+  font-style: normal;
+  font-family: "themefisher-font"; }
+
+/* line 30, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.container {
+  max-width: 1140px;
+  margin: 0 auto; }
+
+/* line 38, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+header {
+  position: relative;
+  max-width: 1002px;
+  margin: 10px auto 50px auto; }
+  /* line 286, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+  header .navigation {
+    text-transform: uppercase; }
+    /* line 289, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+    header .navigation li {
+      list-style: none;
+      display: inline-block;
+      font-family: "Josefin Sans";
+      font-weight: bold;
+      font-size: 13px;
+      padding: 0 10px; }
+      /* line 298, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+      header .navigation li a {
+        text-decoration: none;
+        color: #000; }
+
+/* line 46, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.nav-hd {
+  float: right; }
+
+/* line 50, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.vex {
+  display: inline-block;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  font-size: 25px;
+  margin: 5px 0; }
+
+/* line 62, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.column-2 .col-1, .column-2 .col-2 {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle; }
+
+/* line 72, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.column-3 .col-1, .column-3 .col-2, .column-3 .col-3 {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top; }
+
+/* line 81, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.sec-1 {
+  max-width: 1002px; }
+  /* line 85, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-1 h2 {
+    font-family: "Josefin Sans";
+    font-size: 60px;
+    font-weight: bold; }
+  /* line 91, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-1 p {
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-weight: 300; }
+  /* line 97, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-1 button {
+    background-color: #FEB648;
+    border: none;
+    color: #fff;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    box-shadow: 0 10px 20px #feca7b;
+    border-radius: 100px;
+    padding: 15px 30px;
+    font-size: 18px; }
+  /* line 251, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+  .sec-1 .col-1 {
+    width: 30%; }
+  /* line 255, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+  .sec-1 .col-2 {
+    width: 55%;
+    margin-left: 50px; }
+  /* line 106, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-1 .col-2 {
+    float: right; }
+
+/* line 113, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.sec-2 {
+  max-width: 1041px; }
+  /* line 116, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-2 h3 {
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px; }
+  /* line 124, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-2 h4, .sec-2 p {
+    font-family: "Josefin Sans"; }
+  /* line 128, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-2 h4 {
+    margin: 5px 0;
+    font-size: 20px; }
+  /* line 133, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-2 p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px; }
+  /* line 139, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-2 i {
+    font-size: 30px; }
+  /* line 143, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-2 .feature {
+    margin-bottom: 60px;
+    vertical-align: top; }
+  /* line 148, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-2 .col-2 {
+    text-align: center; }
+  /* line 154, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-2 .col-3 .feature {
+    padding-left: 40px; }
+
+/* line 162, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.sec-3 {
+  background-color: #FEB648; }
+  /* line 251, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+  .sec-3 .col-1 {
+    width: 30%; }
+  /* line 255, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+  .sec-3 .col-2 {
+    width: 55%;
+    margin-left: 50px; }
+  /* line 168, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-3 .container {
+    max-width: 1050px;
+    margin: 0 auto; }
+  /* line 174, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-3 h2, .sec-3 p {
+    font-family: "Josefin Sans";
+    color: #fff; }
+  /* line 179, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-3 h2 {
+    font-size: 40px; }
+  /* line 183, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-3 p {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 300;
+    line-height: 22px; }
+  /* line 190, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-3 .col-1 {
+    margin: 94px auto; }
+  /* line 194, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-3 .col-2 {
+    width: 60%; }
+
+/* line 201, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.sec-4 {
+  max-width: 991px; }
+  /* line 204, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-4 h2 {
+    font-family: "Josefin Sans";
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 70px; }
+  /* line 211, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-4 h3, .sec-4 p {
+    font-family: "Josefin Sans"; }
+  /* line 215, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-4 h3 {
+    font-weight: normal;
+    font-size: 32px; }
+  /* line 220, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-4 p {
+    font-size: 18px; }
+  /* line 251, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+  .sec-4 .part1 .col-1 {
+    width: 30%; }
+  /* line 255, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+  .sec-4 .part1 .col-2 {
+    width: 55%;
+    margin-left: 50px; }
+  /* line 226, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-4 .part1 .col-1 {
+    width: 40%; }
+  /* line 230, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-4 .part1 .col-2 {
+    width: 50%; }
+  /* line 263, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+  .sec-4 .part2 .col-1 {
+    width: 50%;
+    vertical-align: middle; }
+  /* line 268, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+  .sec-4 .part2 .col-2 {
+    width: 40%;
+    margin-left: 50px; }
+  /* line 240, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-4 .check-feat {
+    background-color: #FEB648;
+    border: none;
+    color: #fff;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    box-shadow: 0 10px 20px #feca7b;
+    border-radius: 100px;
+    font-size: 16px;
+    padding: 10px 50px; }
+
+/* line 254, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.sec-5 .container {
+  text-align: center; }
+
+/* line 258, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.sec-5 h2 {
+  font-family: "Josefin Sans";
+  font-size: 40px; }
+
+/* line 263, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.sec-5 img {
+  margin: 10px 20px; }
+
+/* line 270, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.sec-6 {
+  background-image: url("../../images/updates-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 321px;
+  text-align: center; }
+  /* line 277, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-6 .container {
+    padding-top: 50px;
+    font-family: "Josefin Sans"; }
+    /* line 281, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+    .sec-6 .container .text {
+      display: inline-block; }
+  /* line 286, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-6 h3, .sec-6 p {
+    color: #fff;
+    font-family: "Josefin Sans";
+    vertical-align: middle; }
+  /* line 292, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-6 h3 {
+    font-size: 31px;
+    font-weight: normal;
+    margin-bottom: 20px; }
+  /* line 298, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-6 p {
+    font-size: 18px; }
+  /* line 302, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-6 #email {
+    width: 70%;
+    font-family: "Josefin Sans";
+    color: #B7B7B7;
+    font-size: 14px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding: 18px 30px 12px;
+    border: none; }
+  /* line 313, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-6 #subscribe-btn {
+    background-color: #FEB648;
+    border: none;
+    color: #fff;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    box-shadow: 0 10px 20px #feca7b;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 30%;
+    margin-left: -5px;
+    vertical-align: top;
+    padding: 14px;
+    box-shadow: none; }
+
+/* line 328, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.sec-7 {
+  text-align: center; }
+  /* line 332, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-7 .container {
+    max-width: 1123px; }
+  /* line 336, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-7 h2 {
+    font-family: "Josefin Sans";
+    font-size: 40px; }
+  /* line 341, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-7 i {
+    color: #FEB648;
+    font-size: 40px; }
+  /* line 346, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-7 .review {
+    font-family: lora;
+    font-style: italic;
+    font-size: 14px;
+    color: #777777;
+    padding: 0 20px;
+    line-height: 23px;
+    margin: 25px 0; }
+  /* line 357, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-7 button {
+    background-color: #FEB648;
+    border: none;
+    color: #fff;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    box-shadow: 0 10px 20px #feca7b;
+    border-radius: 100px;
+    font-size: 18px;
+    padding: 15px 35px;
+    margin-top: 50px; }
+  /* line 365, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  .sec-7 .ceo {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    line-height: 22px; }
+    /* line 370, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+    .sec-7 .ceo h4 {
+      margin: 10px 0 0; }
+    /* line 374, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+    .sec-7 .ceo p {
+      margin: 0;
+      font-weight: 300;
+      font-size: 14px; }
+
+/* line 385, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+footer {
+  background-color: #F4F4F4;
+  text-align: center;
+  margin-bottom: 20px; }
+  /* line 286, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+  footer .navigation {
+    text-transform: uppercase; }
+    /* line 289, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+    footer .navigation li {
+      list-style: none;
+      display: inline-block;
+      font-family: "Josefin Sans";
+      font-weight: bold;
+      font-size: 13px;
+      padding: 0 10px; }
+      /* line 298, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+      footer .navigation li a {
+        text-decoration: none;
+        color: #000; }
+  /* line 389, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  footer ul {
+    padding-left: 0;
+    margin: 20px 0; }
+  /* line 398, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+  footer .ftr-content {
+    padding: 50px 0; }
+    /* line 402, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+    footer .ftr-content .vex-ftr {
+      font-family: "Josefin Sans";
+      font-size: 13px; }
+    /* line 407, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+    footer .ftr-content p {
+      margin-bottom: 0; }
+    /* line 411, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+    footer .ftr-content .copyright {
+      font-family: "Josefin Sans";
+      letter-spacing: 2px;
+      font-size: 11px; }
+
+/* line 427, /Users/gweiss/Development/week7-challenge/assets/src/scss/main.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
