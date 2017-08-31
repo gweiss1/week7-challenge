@@ -1,16 +1,16 @@
-const argv        = require('yargs').argv;
-const browserSync = require('browser-sync');
-const gulp        = require('gulp');
-const gulpif      = require('gulp-if');
-const notify      = require('gulp-notify');
-const prefixer    = require('gulp-autoprefixer');
-const runSequence = require('run-sequence');
-const sass        = require('gulp-sass');
-const gutil       = require('gulp-util');
-const babel       = require('gulp-babel');
-const del         = require('del');
+var argv        = require('yargs').argv;
+var browserSync = require('browser-sync');
+var gulp        = require('gulp');
+var gulpif      = require('gulp-if');
+var notify      = require('gulp-notify');
+var prefixer    = require('gulp-autoprefixer');
+var runSequence = require('run-sequence');
+var sass        = require('gulp-sass');
+var gutil       = require('gulp-util');
+var babel       = require('gulp-babel');
+var del         = require('del');
 
-const config = {
+var config = {
   src: {
     base: './assets/',
     js: './assets/src/js/**/*.js',
