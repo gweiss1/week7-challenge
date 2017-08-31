@@ -438,8 +438,8 @@ template {
 
 @font-face {
   font-family: 'themefisher-font';
-  src: url("../../fonts/themefisher-font.eot?ug5hnh");
-  src: url("../../fonts/themefisher-font.eot?ug5hnh#iefix") format("embedded-opentype"), url("../../fonts/themefisher-font.ttf?ug5hnh") format("truetype"), url("../../fonts/themefisher-font.woff?ug5hnh") format("woff"), url("../../fonts/themefisher-font.svg?ug5hnh#themefisher-font") format("svg");
+  src: url("../../fonts/themefisher-font/themefisher-font.eot");
+  src: url("../../fonts/themefisher-font/themefisher-font.eot#iefix") format("embedded-opentype"), url("../../fonts/themefisher-font/themefisher-font.ttf") format("truetype"), url("../../fonts/themefisher-font/themefisher-font.woff") format("woff"), url("../../fonts/themefisher-font/themefisher-font.svg#themefisher-font") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -549,37 +549,37 @@ template {
 .section {
   margin: 100px auto; }
 
-/* line 4, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+/* line 210, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
 .tf-strategy:before {
   content: "\e03b";
   font-style: normal;
   font-family: "themefisher-font"; }
 
-/* line 10, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+/* line 216, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
 .tf-ion-ios-briefcase-outline:before {
   content: "\f3ed";
   font-style: normal;
   font-family: "themefisher-font"; }
 
-/* line 16, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+/* line 222, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
 .tf-ion-ios-camera-outline:before {
   content: "\f3f5";
   font-style: normal;
   font-family: "themefisher-font"; }
 
-/* line 22, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+/* line 228, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
 .tf-mobile:before {
   content: "\e000";
   font-style: normal;
   font-family: "themefisher-font"; }
 
-/* line 28, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+/* line 234, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
 .tf-ion-ios-cart-outline:before {
   content: "\f3f7";
   font-style: normal;
   font-family: "themefisher-font"; }
 
-/* line 34, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
+/* line 240, /Users/gweiss/Development/week7-challenge/assets/src/scss/partials/_mixins.scss */
 .tf-ion-quote:before {
   content: "\f347";
   font-style: normal;
